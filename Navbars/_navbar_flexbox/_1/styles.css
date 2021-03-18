@@ -1,0 +1,99 @@
+/* imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+/* root  */
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin:0;
+}
+
+/* html, body  */
+
+html, body {
+    background-color: #273746
+}
+
+/* header */
+
+header {
+    display:flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px;
+}
+
+/* div classes */
+
+div.icon {
+    color: #fff;
+    font-weight: 500;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+/* div children effects */
+
+div.icon a:link {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 7px;
+}
+
+div.icon a:visited {
+    text-decoration: none;
+    color:#fff;
+}
+
+/* nav, nav children and their classes */
+
+nav li{
+    display:inline-block;
+}
+
+nav .nav__links {
+    list-style: none;
+}
+
+/* nav, nav children, their classes and effects */
+
+nav .nav__links a:link {
+    color: #fff;
+    text-decoration: none;
+    padding: 27px;
+}
+
+nav .nav__links a:visited {
+    text-decoration: none;
+    color:#fff;
+}
+
+nav .nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+nav .nav__links li a:hover {
+    color:#3498db
+}
+
+/* button */
+
+button {
+    padding: 9px 25px;
+    border-radius: 50px;
+    background-color:rgba(0,136,168,1);
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+/* button effects */
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
